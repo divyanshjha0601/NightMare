@@ -31,11 +31,13 @@ Every decision matters.
 ## ✨ Features
 
 ### 🏚️ Procedurally Generated Maze
+
 - Explore a 4×4 maze containing 16 rooms.
 - Randomized maze layout for every new game.
 - Navigate through interconnected rooms and corridors.
 
 ### 👹 Intelligent Monster AI
+
 The monster uses multiple behavioral states:
 
 - **Patrol:** Roams around the house.
@@ -46,25 +48,30 @@ The monster uses multiple behavioral states:
 The monster can detect players through sight and sound. Collecting more keys also increases its chase speed.
 
 ### 🔑 Key Collection & Escape
+
 - Find 5 keys hidden throughout the house.
 - Collect all keys to unlock the exit.
 - Reach the exit to complete the game.
 
 ### 🔦 Flashlight & Battery System
+
 - Use your flashlight to navigate dark rooms.
 - Manage limited flashlight battery.
 - Find batteries to recharge your flashlight.
 - Experience sudden blackouts and flickering lights.
 
 ### 🏃 Sprint & Stamina System
+
 - Move normally to conserve stamina.
 - Sprint when the monster gets close.
 - Stamina regenerates when you stop sprinting.
 
 ### 🔊 Procedural Horror Audio
+
 Horror sounds are generated directly through Python code.
 
 Includes:
+
 - Ambient horror drones
 - Heartbeat effects
 - Footsteps
@@ -76,6 +83,7 @@ Includes:
 No external sound files are required for the generated audio effects.
 
 ### 🌫️ Dynamic Horror Atmosphere
+
 - Fog and darkness
 - Flickering lights
 - Random blackouts
@@ -84,38 +92,39 @@ No external sound files are required for the generated audio effects.
 - Heartbeat intensity based on monster proximity
 
 ### 🗺️ In-Game Map
+
 Use the map to understand your surroundings and navigate the maze.
 
 ---
 
 ## 🕹️ Controls
 
-| Key | Action |
-|---|---|
-| W | Move Forward |
-| A | Move Left |
-| S | Move Backward |
-| D | Move Right |
-| Mouse | Look Around |
-| Shift | Sprint |
-| Space | Jump |
-| F | Toggle Flashlight |
-| M / Tab | Toggle Map |
-| P | Pause / Resume |
-| R | Restart Game |
-| Esc | Quit Game |
+| Key     | Action            |
+| ------- | ----------------- |
+| W       | Move Forward      |
+| A       | Move Left         |
+| S       | Move Backward     |
+| D       | Move Right        |
+| Mouse   | Look Around       |
+| Shift   | Sprint            |
+| Space   | Jump              |
+| F       | Toggle Flashlight |
+| M / Tab | Toggle Map        |
+| P       | Pause / Resume    |
+| R       | Restart Game      |
+| Esc     | Quit Game         |
 
 ---
 
 ## 🛠️ Built With
 
-| Technology | Purpose |
-|---|---|
-| Python | Core game logic |
-| Ursina Engine | 3D game development |
-| Panda3D | 3D rendering foundation |
+| Technology              | Purpose                                                 |
+| ----------------------- | ------------------------------------------------------- |
+| Python                  | Core game logic                                         |
+| Ursina Engine           | 3D game development                                     |
+| Panda3D                 | 3D rendering foundation                                 |
 | Python Standard Library | Procedural audio, randomization, math, and game systems |
-| Git & GitHub | Version control and project hosting |
+| Git & GitHub            | Version control and project hosting                     |
 
 ---
 
@@ -177,13 +186,10 @@ Your mission is to:
 ---
 
 ## 📸 Screenshots & Gameplay
-<video controls src="screen shot/Recording 2026-10-29 115751.mp4" title="Game play video"></video>
+
+![game play](<video controls src="screen shot/Recording 2026-10-29 115751.mp4" title="Game play video"></video>)
 ![map](<screen shot/Screenshot 2026-10-29 115407.png>)
 ![monster tackle](<screen shot/Screenshot 2026-10-29 115503.png>)
-
-
-
-
 
 ---
 
@@ -241,4 +247,4 @@ Your support motivates me to develop more creative games and explore new technol
 
 ### ☠️ Can You Survive the Nightmare?
 
-*The house is waiting. The monster is hunting. Your escape begins now.*
+_The house is waiting. The monster is hunting. Your escape begins now._
